@@ -1,0 +1,95 @@
+SESSION 3 :-
+---------------------
+
+Q-1 :- Write the full form and one-line use of: HTTP, HTTPS, FTP, SMTP.
+
+Ans :- 1. HTTP :– [HyperText Transfer Protocol] – Browser aur website ke beech data transfer karta hai.
+       
+       2. HTTPS :– [HyperText Transfer Protocol Secure] – Browser aur website ke beech Secure data transfer karta hai.
+
+       3. FTP :– [File Transfer Protocol] – Files upload aur download karne ke liye use hota hai.
+  
+       4. SMTP :– [Simple Mail Transfer Protocol] – Emails send karne ke liye use hota hai.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-2 :- What is the difference between IPv4 and IPv6? Answer in 2 lines.
+
+Ans :- IPv4 :- 32-bit IP address use karta hai.
+               limited ip address available hote he.
+               Number ke formate me hota he.
+
+       IPv6 :- 128-bit IP address use karta hai.
+               unique IP addresses available hote hain.
+               Ye hexadecimal formate me hote he.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-3 :- Run nslookup google.com on your system and write down the IP address you get.
+
+Ans :- IPv4 :- 10.130.135.192 
+
+        Name:    google.com
+
+        Addresses (IPv6): 2404:6800:4000:1010::65
+          2404:6800:4000:1010::8b
+          2404:6800:4000:1010::66
+          2404:6800:4000:1010::8a
+          142.251.106.113
+          142.251.106.100
+          142.251.106.101
+          142.251.106.138
+          142.251.106.139
+          142.251.106.102
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-4 :- What do these HTTP status codes mean: 200, 301, 404, 500, 403?
+
+Ans :- 200 :- Request Successful
+
+       301 :- Moved Permanently
+
+       404 :- Page Not Found
+
+       500 :- Server Error
+
+       403 :- Error
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-5 :- Explain DNS hierarchy (root, TLD, domain, subdomain) with www.google.com as an example
+
+Ans :- DNS :- DNS ye domain name ko IP address me convert karta hai 
+
+
+      1. Root :- Roots DNS hierarchy ka sabse upar vala part he
+               -> isse dot (.) se represent kiya jata he 
+        
+      ---------> example :- www.google.com
+                                     ---
+                        isme jo last ka dot (.) he vo root he
+
+
+      2. TLD [Top-level Domain] :- TLD domain name ka last part hota he
+
+      ---------> example :- www.google.com
+                                      ------
+                        Isme jo [com] likha huva he na use TLD bolte he
+
+
+      3. Domain :- Domain website ka main name hota he 
+
+      ---------> example :- www.google.com
+                               ---------
+                        isme google likha huva he vo domain he 
+
+
+      4. Subdomain :- main domain ka ek part hota hai jo website ke alag section ko represent karta hai.
+
+      ---------> example :- www.google.com
+                           -----
+                          isme www ye subdomain he 
+
+
+         

@@ -1,0 +1,45 @@
+SESSION 2 :-
+---------------
+
+Q-1 :- What are the three main layers of software architecture? Write one line about each.
+
+Ans :- Layer 1 :- Presentation Layer – User interface ko handle karti hai aur user se input leti hai.
+
+       Layer 2 :- Business Logic Layer – Application ke rules aur processing ko manage karti hai.
+       
+       Layer 3 :- Data Layer – Database me data ko store aur manage karti hai.
+      
+-----------------------------------------------------------------------------------------------------------------
+
+Q-2 :- Define client and server in your own words with one real-life example.
+
+Ans :- client :- agar ham amazon or blinkit Jaisi apps me hum apna mobile number register karne ke liye dalte he
+                 vo client me ata he 
+
+       server :- jab apne register karne ke liye apna mobile number dala or samne se jo OTP ata he vo server me ata he 
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Q-3 :- Write 2 differences each between desktop apps, web apps, and mobile apps.
+
+Ans :-         desktop apps     |             Web apps              |             Mobile apps 
+      --------------------------------------------------------------------------------------------------------
+    1.pc or laptop me install   |     install nahi karna padta      |       play store se install karna padta he                        
+      karna padta he            |                                   |
+                                |                                   |
+    2. bahot si app without     |     most off cases me internet    |       vo apps pe depend karta he internet lag
+       internet bhi chalti he   |     lagta he                      |       bhi sakta he or nahi bhi
+                                |                                   |
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Q-4 :- Name any 3 databases and mention whether each is SQL or NoSQL
+
+Ans :- 1. MySQL :- SQL database
+       
+       2. PostgreSQL :- SQL database 
+
+       3. MongoDB :- NoSQL database
+
+       4. SQLite :- SQL database 
+ 

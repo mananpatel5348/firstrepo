@@ -1,0 +1,42 @@
+SESSION 5 :-
+---------------------
+
+Q-1 :- Write the Git command for each: initialize a repo, stage all files, commit with a message, push to remote, pull latest changes.
+
+Ans :- 1. Initialize a Repository :- git init
+
+       2. stage all files :- git add .
+
+       3. commit with a message :- git commit -m "your message"
+
+       4. push to remote repo :- git push origin main 
+
+       5. pull latest changes :- git pull origin main
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-2 :- What is the difference between git fetch and git pull? Answer in 2 lines
+
+Ans :-  git fetch – Latest changes ko download karta hai, lekin merge nahi karta.
+
+        git pull – Latest changes ko download karke automatically current branch me merge kar deta hai.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-3 :- Create a new GitHub repository, push any small text file from your local system, and share the repo link.
+
+Ans :-   https://github.com/mananpatel5348/firstrepo
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-4 :- What is the difference between a Fork and a Pull Request? Answer in 2 lines.
+
+Ans :- fork request :- Kisi aur ke GitHub repository ki apne GitHub account me copy banana taaki tum us par apne changes kar sako.
+
+       Pull request :- Apne kiye hue changes ko original repository me merge karne ki request bhejna.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-5 :- Create a new branch named feature-test, make one commit on it, and merge it back to the main branch. Write the commands you used.
+
+Ans :- 

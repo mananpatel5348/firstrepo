@@ -1,0 +1,78 @@
+
+SESSION 1 :-
+------------------
+
+Q-1 :- Name 5 IT job roles and write one line about what each role does.
+
+ Ans :- 1> Software developer :- Software developer software, Web or Mobile application banata he.
+
+        2> QA (Quality Assurance) :- QA ka main kam hota he software ko check karna or usme se bug dhundhkar use sahi karke
+                                     dena.
+
+        3> Data Analytics :- Data analytics data ko read karta he or company ko batata he ki isme kya improvments la sakte he.
+
+        4> Cybersecurity Analytics :- basically iska work system or data ko hackers or viruses se bachaneka he.
+
+        5> UI/UX Designer :- iska work mobile app or website ko attractive banana he.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-2 :- List 3 product companies and 3 service companies with one example of work each does.
+
+ Ans :- product companies :-
+         ------------------------
+             1> google :- google search, google drive, google photos, Gmail banati he.
+             2> Microsoft :- windows operating system, word, Excel or power point banati he.
+             3> Amazon :- amazon shopping app banati he or use maintain klarti he.
+
+-----> Service companies :-
+      --------------------
+             1> Wipro :- software ko test or maintain kareti he.
+             2> Tcs :- clients ke liye software or websites banati he.
+             3> Infosys :- web, app or software banati he.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-3 :- Write the full forms and one-line use of: GitHub, Slack, Jira, IDE, API
+
+Ans :-  Name    |           Full form         |                use
+   ---------------------------------------------------------------------------------------------
+     1. GitHub  |               -             |    Data ko save karke rakhta he.
+                |                             |
+     2. Slack   |  Searchable Log of All      |    Team member ke bich communication ke liye
+                |  Conversation and           |    use hota hai.
+                |  Knowledge                  |
+                |                             |
+     3. Jira    |          -                  |    Projects or tasks ko manage or track karne
+                |                             |    ke liye use hota hai.
+                |                             |
+     4. IDE     |  Integrated Development     |    coding likhne or run karne ke liye use
+                |  Environment                |    hota hai.
+                |                             |
+     5. API     |  Application Programming    |    2 software ke bich communication karne
+                |  Interface                  |    ke liye use hota hai.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-4 :- Name any 5 programming languages and mention one popular use case for each.
+
+Ans :- 1. Python :- Web development
+       
+       2. java :- Android app development
+
+       3. c :- compiler development
+
+       4. java script :- buttons click karna 
+
+       5. SQL :- Data store, update, search karna 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-5 :-What is the difference between a developer and a tester? Answer in 2 lines
+
+Ans :-                Developer                       |                        Tester 
+ ---------------------------------------------------------------------------------------------------------------------------
+  1. Software or application banata he                |         software or application test(check) karta he
+
+  2. New features develop karta he                    |         Features sahi kam kar raha he ya nahi vo check karta he
+
+ 

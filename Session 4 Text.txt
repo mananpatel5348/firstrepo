@@ -1,0 +1,36 @@
+SESSION 4 :-
+---------------------
+
+Q-1 :- List all 6 phases of SDLC in order with one line about each.
+
+Ans :- 1. requirement Analysis :– Customer ki requirements collect aur analyze ki jati hain.
+
+       2. Design :– Software ka design aur architecture tayyar kiya jata hai.
+
+       3. Development :– Software ka code likhkar application banayi jati hai.
+      
+       4. Testing :– Bugs dhoondhkar software ki quality check ki jati hai.
+
+       5. Deployment :– Software ko users ke liye release kiya jata hai.
+
+       6. Maintenance :– Bugs fix kiye jate hain aur software ko update aur improve kiya jata hai.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-2 :- Write 3 differences between Agile and Waterfall models.
+
+Ans :-             Agile Model                          |                   Waterfall Model
+       -------------------------------------------------|------------------------------------------------------------
+    1. Flexible hota hai                                |   step by step process ko follow karta hai
+                                                        |
+    2. customer se baar baar feedback liya jata he      |   Requirements starting me hi final karni padti he 
+                                                        |
+    3. agar requirements badal di jaye toh easily       |   Beech me changes karna difficult hota hai
+       update kar sakte he                              |                     
+                                                        |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q-3 :- Name the 3 main Scrum roles and write one line about the responsibility of each.
+
+Ans :- 
