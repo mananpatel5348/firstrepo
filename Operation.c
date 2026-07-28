@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a = 3;
+    int a = 8;
     
     printf(" %d x 1 = %d\n", a, a*1 );
     printf(" %d x 2 = %d\n", a, a*2);
