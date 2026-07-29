@@ -1,7 +1,6 @@
 // create variable grade. and ask for what is the grade of student 
 // if the grade is "A", print you're an elite achiever 
 // or if the grade is anything other than "A" then print "you need improvement" .
-
 #include<stdio.h>
 int main()
 {
