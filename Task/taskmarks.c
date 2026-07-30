@@ -20,7 +20,7 @@ int main()
         printf("Retest");
     }
     else{
-        printf("Good, improvement is needed");
+        printf("is in between 50 to 80");
     }
 
     return 0;

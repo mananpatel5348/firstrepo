@@ -1,0 +1,23 @@
+//3.  Pass or Fail
+//Take marks (0–100).
+//If marks are 35 or above, print “Pass”, otherwise print “Fail”.
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    
+    printf("Enter your marks :");
+    scanf("%d", &a);
+    
+    if(a>35)
+    {
+        printf("pass");
+    }
+    else
+    {
+        printf("fail");
+    }
+    
+    return 0;
+}
