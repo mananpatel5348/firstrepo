@@ -1,0 +1,7 @@
+1. Install GCC on your computer and verify the installation by running gcc --version in your terminal or command prompt.
+
+Ans :- PS C:\Users\ai\OneDrive\Desktop\git-demo> gcc --version
+gcc.exe (GCC) 16.1.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

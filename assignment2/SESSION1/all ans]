@@ -6,7 +6,7 @@ Ans :- Basically program ek instruction ka set hota hai jo computer ko batata ha
        kya kam karna hai or kaise kam karna hai.
        Example :- paytm me program ka use payment ke liye hota hai , paytm mr hum amount enter karke pay button press karte he tab programm payment ko process karta hai or batata hai ki apka payment successfull huva hai ki fail huva hai.
 
---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 Q - 2 :- List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be both.<br><br><em><strong>Hint:</strong> Think of languages like Java, Python, and JavaScript.</em>
 
@@ -14,7 +14,7 @@ Ans :- 1 > c :- compiled language
        2 > c++ :- compiled language
        3 > python :- interpreted language
        
----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 Q - 3 :- Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking confirmation
 
@@ -46,7 +46,7 @@ Ans :-        START
                           ↓
                          END
 
----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 Q - 4 :- Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
 
@@ -65,5 +65,4 @@ Ans :-  1 > Start
        13 > Receive the order confirmation.
        14 > End.
 
----------------------------------------------------------------------------------------
-![alt text](<Screenshot 2026-08-09 230753.png>)![alt text](<Screenshot 2026-08-09 230753-1.png>)
+---------------------------------------------------------------------------------------------------------------

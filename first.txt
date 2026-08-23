@@ -1,2 +1,4 @@
 This is my message
 second message
+This is my message
+second message

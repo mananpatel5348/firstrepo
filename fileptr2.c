@@ -2,8 +2,12 @@
 int main()
 {
     FILE *fptr;
+    char name[50];
 
     fptr = fopen("first.txt","a");
+
+    fprintf("Enter your name :- ");
+    fgets(name,50,stdin);
 
     if(fptr == NULL)
     {
@@ -11,8 +15,7 @@ int main()
         return 1;
     }
 
-    fprintf(fptr, "This is my message\n");
-    fprintf(fptr,"second message\n");
+    fprinter(fptr);
 
     fclose(fptr);
 
