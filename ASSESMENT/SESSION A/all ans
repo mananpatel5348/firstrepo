@@ -1,0 +1,137 @@
+Q - 1 :  Which development methodology would you recommend for this project, and why?
+Identify two specific risks the team would face if they chose the wrong methodology for this
+context.
+
+Ans :-  **Recommended Methodology: Agile**
+
+Agile best rahega because:
+
+* Requirements frequently change hote hain.
+* Client ko har **2 weeks working features** review karne hain.
+* Agile mein regular feedback aur changes easily handle ho jate hain.
+
+**Wrong Methodology (Waterfall) ke 2 risks:**
+
+1. **Changes difficult & costly** – Requirements change hone par rework zyada hoga.
+2. **Late feedback** – Client ko working product late milega, jis se delays aur errors badh sakte hain.
+
+--------------------------------------------------------------------------
+
+Q - 2: Describe the Git workflow your team should adopt to prevent this from happening
+again. Name at least two Git commands your team should use as part of this workflow and
+explain the role of each command.
+
+Ans :-  ### Git Workflow
+
+Team ko **feature branch + Pull Request (PR) + code review** workflow follow karna chahiye.
+
+* Har member apne feature ke liye **separate branch** banaye.
+* Directly `main` par code push na kare.
+* Code complete hone ke baad **Pull Request** create kare.
+* Team member code review/test kare, phir hi `main` me merge ho.
+
+### Git Commands
+
+1. **`git checkout -b feature-name`** → New branch create karke uspar kaam karne ke liye.
+2. **`git pull`** → Latest code `main`/remote se lene ke liye, taaki conflicts aur outdated code avoid ho.
+3. **`git push`** → Apni branch ka code remote repository par upload karne ke liye.
+
+**Main branch ko protected rakhna chahiye**, jisme PR approval ke bina direct push allowed na ho.
+
+--------------------------------------------------------------------------
+
+Q - 3 : List the appropriate HTML input types you would use for each of the five fields. Explain
+how you would use HTML5 built-in validation attributes to enforce the two constraints mentioned,
+and why these attributes alone are not sufficient for production-level validation.
+
+Ans :-  ### HTML Input Types
+
+* **Name:** `text`
+* **Email:** `email`
+* **Phone:** `tel`
+* **Preferred Domain:** `radio` / `select`
+* **Resume:** `file`
+
+### HTML5 Validation
+
+* `required` → kisi bhi field ko empty nahi chhodne dega.
+* `type="email"` → email ka basic valid format check karega.
+* Example: `<input type="email" required>`
+
+**Production mein:** HTML5 validation alone sufficient nahi hai, kyunki user validation bypass kar sakta hai. **Server-side validation** bhi zaroori hai for security and data integrity.
+
+--------------------------------------------------------------------------
+
+Q - 4 : Explain how Bootstrap's grid class system works to produce this responsive layout.
+Write the Bootstrap class combination you would apply to the article column div, and explain
+what each class in the combination controls.
+
+Ans :- ### Bootstrap Grid
+
+Bootstrap **12-column grid system** use karta hai. Responsive layout ke liye classes screen size ke according columns control karti hain.
+
+Article `<div>` ke liye:
+
+```html
+<div class="col-12 col-md-4">
+```
+
+* **`col-12`** → Mobile par article full width lega (1 column).
+* **`col-md-4`** → Medium/desktop screen par 12 mein se 4 columns lega, yani **3 articles per row**.
+* Bootstrap automatically responsive behavior handle karta hai, isliye custom media query ki zarurat nahi.
+
+--------------------------------------------------------------------------
+
+Q - 5 : Explain why an array is the correct data structure for this task compared to using 30
+separate variables. Describe the two-step logic your program would follow: first to compute the
+average, then to identify the above-average days — and explain why both steps cannot be done
+in a single loop.
+
+Ans :- ### Why Array?
+
+Array best hai kyunki 30 rainfall readings ko **ek hi variable name** ke under store kar sakte hain, jaise `rainfall[30]`. 30 separate variables banane ki zarurat nahi padegi, aur loop se easily process kar sakte hain.
+
+### Two-Step Logic
+
+**1. Average calculate karo:**
+
+* 30 readings ka total nikalo.
+* `average = total / 30`
+
+**2. Above-average days find karo:**
+
+* Array ko dobara traverse karo.
+* Jis day ka rainfall `> average` ho, us day ko print karo.
+
+**Single loop mein normally nahi kar sakte** kyunki average calculate hone se pehle humein **poore 30 readings ka total** pata hona zaroori hai. Average milne ke baad hi compare kar sakte hain.
+
+--------------------------------------------------------------------------
+
+Q - 6 : Explain why the program crashes on an empty string input and describe the check
+your pointer-based solution must perform before dereferencing the pointer. How does traversing
+a string using a pointer differ from traversing it using array index notation, and which approach
+makes the empty-input bug easier to catch?
+
+Ans :-  ### Empty String Problem
+
+Agar user sirf **Enter** press karta hai, string empty hoti hai (`"\0"`). Agar program pointer ko directly dereference karta hai, jaise `*ptr`, bina check kiye, to crash/undefined behavior ho sakta hai.
+
+### Pointer Check
+
+Dereference karne se pehle check karo:
+
+```c
+if (ptr != NULL && *ptr != '\0')
+```
+
+* `ptr != NULL` → pointer valid hai.
+* `*ptr != '\0'` → string empty nahi hai.
+
+### Pointer vs Array
+
+* **Array:** `str[i]` se characters access karte hain.
+* **Pointer:** `*ptr` se character access karke `ptr++` se next character par move karte hain.
+
+**Empty-input bug catch karna:** Array indexing generally easier hoti hai because `str[0] == '\0'` directly check kar sakte hain. Pointer approach mein **dereference se pehle pointer validity check** karna important hai.
+
+--------------------------------------------------------------------------------

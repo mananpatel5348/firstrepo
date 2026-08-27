@@ -1,0 +1,4 @@
+//Mene program check karte time sorting mein ek error notice kiya.
+//Numbers ko ascending order mein arrange karne ke liye comparison condition galat thi.
+//Maine us condition ko correct kiya, jisse ab numbers **smallest se largest** order mein properly sort hote hain.
+//Is change ke baad sorted array ka output correct aa raha hai.
